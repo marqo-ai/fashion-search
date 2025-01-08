@@ -1,5 +1,11 @@
 # Fashion Search with Marqo
-This repository shows you how to set up a state-of-the-art fashion search engine. 
+This repository shows you how to build a personalized fashion search engine with [Marqo](https://www.marqo.ai/). We’ll start by collecting and preparing product and historical search data, then guide you through creating an index, adding documents, and using advanced search techniques like exact match boosters and revenue modifiers to enhance relevance and drive conversions.
+
+There is an article that guides you through the process in more detail. Read it [here](https://www.marqo.ai/blog).
+
+<p align="center">
+  <img src="assets/ui.png"/>
+</p>
 
 ## Step 0: Set Up
 First, you will need a Marqo Cloud API Key. To obtain this, visit this [article](https://www.marqo.ai/blog/finding-my-marqo-api-key).
