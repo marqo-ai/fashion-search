@@ -14,8 +14,6 @@ mq = Client(url="https://api.marqo.ai", api_key=api_key)
 # Define Marqo index name
 index_name = config.INDEX_NAME
 
-query = "green candy dress"
-
 # Helper function to create valid keys
 def make_modifier_key(value: str) -> str:
     return re.sub(r"[^a-zA-Z0-9_]", "_", value).lower()
@@ -128,6 +126,7 @@ def hybrid_with_exact_boosters_and_modifiers(query):
 
     return hybrid_with_exact_boosters_and_modifiers
 
+query = "green candy dress"
 print(basic_search(query)['hits'][0])
 print(hybrid_search(query)['hits'][0])
 print(hybrid_search_with_exact_boosters(query)['hits'][0])
