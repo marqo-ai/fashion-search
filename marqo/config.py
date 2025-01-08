@@ -1,0 +1,1 @@
+INDEX_NAME = "fashion-search"
