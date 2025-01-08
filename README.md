@@ -33,7 +33,7 @@ https://marqo-tutorial-public.s3.us-west-2.amazonaws.com/fashion/fashion200k/160
 ```
 
 ### Search Log
-For this article, we curated search log data to reflect the behaviour of users on a fashion website. The product data csv can be found [here](). Once downloaded, place into the `data_processing/data` folder. The data is in the form:
+For this article, we curated search log data to reflect the behaviour of users on a fashion website. The product data csv can be found [here](https://marqo-tutorial-public.s3.us-west-2.amazonaws.com/fashion/fashion-search-demo/search_log.csv). Once downloaded, place into the `data_processing/data` folder. The data is in the form:
 ```csv
 query,_id,action,days_ago_action_performed
 green candy dress,91055827_0,click,30
