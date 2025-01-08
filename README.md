@@ -124,7 +124,7 @@ While the data is being added, you can check the status of your index with `pyth
 
 ## Step 3: Searching 
 For this demo, we have created a streamlit app interface for you to interact with your data. To set this up run, 
-```python
+```bash
 streamlit run app.py
 ```
 This will launch a user interface that looks similar to the following when you begin querying:
