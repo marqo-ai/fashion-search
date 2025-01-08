@@ -1,0 +1,5 @@
+datasets
+python-dotenv
+marqo
+Pillow
+streamlit

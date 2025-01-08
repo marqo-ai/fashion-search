@@ -1,0 +1,11 @@
+# Virtual environments
+venv
+
+# Env variables
+.env
+
+# Caches
+marqo/__pycache__
+
+# Big data files
+data_processing/data/search_log.csv
