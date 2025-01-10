@@ -1,7 +1,7 @@
 # Fashion Search with Marqo
 This repository shows you how to build a personalized fashion search engine with [Marqo](https://www.marqo.ai/). We’ll start by collecting and preparing product and historical search data, then guide you through creating an index, adding documents, and using advanced search techniques like exact match boosters and revenue modifiers to enhance relevance and drive conversions.
 
-There is an article that guides you through the process in more detail. Read it [here](https://www.marqo.ai/blog).
+There is an article that guides you through the process in more detail. Read it [here]([https://www.marqo.ai/blog](https://marqo.ai/blog/improving-search-relevance-in-fashion).
 
 <p align="center">
   <img src="assets/ui.png"/>
@@ -105,7 +105,7 @@ Thus, each document will look as follows:
 ```
 This data can be found at the `complete_data.json` document we have [here](./data_processing/data/complete_data.json). If you want to compute this for your own data, run `python3 data_processing/generate_modifiers.py` (this may take a couple of minutes).
 
-For more information on the modifiers used here, please see our full [blog post](https://www.marqo.ai/blog).
+For more information on the modifiers used here, please see our full [blog post](https://marqo.ai/blog/improving-search-relevance-in-fashion).
 
 ## Step 2: Creating Marqo Index
 Now we have discussed the types of data needed for successful search, we can begin building with Marqo. 
@@ -145,7 +145,7 @@ Note, there are 4 different search method options:
 * Hybrid search with exact match boosters
 * Hybrid search with exact match boosters and modifiers
 
-For more information on the specifics of these 4 different methods and how they impact search revenue, visit our [blog](https://www.marqo.ai/blog).
+For more information on the specifics of these 4 different methods and how they impact search revenue, visit our [blog](https://marqo.ai/blog/improving-search-relevance-in-fashion).
 
 ## Step 4: (Optional) Clean Up
 If you follow the steps in this guide, you will create an index with GPU inference and a basic storage shard. This index will cost $1.03 per hour. When you are done with the index you can delete it with the following code:
