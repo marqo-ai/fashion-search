@@ -1,7 +1,7 @@
 # Fashion Search with Marqo
 This repository shows you how to build a personalized fashion search engine with [Marqo](https://www.marqo.ai/). We’ll start by collecting and preparing product and historical search data, then guide you through creating an index, adding documents, and using advanced search techniques like exact match boosters and revenue modifiers to enhance relevance and drive conversions.
 
-There is an article that guides you through the process in more detail. Read it [here]([https://www.marqo.ai/blog](https://marqo.ai/blog/improving-search-relevance-in-fashion)).
+There is an article that guides you through the process in more detail. Read it [here](https://marqo.ai/blog/improving-search-relevance-in-fashion).
 
 <p align="center">
   <img src="assets/ui.png"/>
